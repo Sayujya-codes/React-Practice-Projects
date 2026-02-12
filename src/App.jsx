@@ -10,6 +10,9 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import { Personchild } from "./components/Person";
 import Product from "./components/Product";
 import Card from "./components/Card";
+import Weather from "./components/Weather";
+import UserStatus from "./components/UserStatus";
+import GreetingCR from "./components/GreetingCR";
 const App = () => {
   return (
     <>
@@ -26,6 +29,9 @@ const App = () => {
       <Card>
         <h3>This is text for card 2</h3>
       </Card>
+      <Weather temp="30" />
+      <UserStatus LoggedIn={true} isAdmin={false} />
+      <GreetingCR timeofDay="morning" />
     </>
   );
 };
