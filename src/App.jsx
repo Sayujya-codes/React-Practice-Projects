@@ -13,6 +13,8 @@ import Card from "./components/Card";
 import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
 import GreetingCR from "./components/GreetingCR";
+import StyledCard from "./components/StyledCard";
+import IconComponent from "./components/IconComponent";
 const App = () => {
   return (
     <>
@@ -32,6 +34,8 @@ const App = () => {
       <Weather temp="30" />
       <UserStatus LoggedIn={true} isAdmin={false} />
       <GreetingCR timeofDay="morning" />
+      <StyledCard />
+      <IconComponent />
     </>
   );
 };
