@@ -1,20 +1,20 @@
 import React from "react";
 
 const ProductInfo = () => {
-  const products = [
+  const list = [
     {
-      name: "Laptop",
+      name: "Laptop test",
       price: "$1200",
-      availablity: "In Stock",
+      avaiablity: "Instock",
     },
   ];
   return (
     <div>
-      {products.map((i) => (
-        <ul key={Math.random}>
+      {list.map((i, index) => (
+        <ul key={index}>
           <li>{i.name}</li>
           <li>{i.price}</li>
-          <li>{i.availablity}</li>
+          <li>{i.avaiablity}</li>
         </ul>
       ))}
     </div>
