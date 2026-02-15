@@ -15,10 +15,20 @@ import UserStatus from "./components/UserStatus";
 import GreetingCR from "./components/GreetingCR";
 import StyledCard from "./components/StyledCard";
 import IconComponent from "./components/IconComponent";
+// import Counter from "./components/Counter";
+import CrudFriends from "./components/CrudFriends";
+import CrudObj from "./components/CrudObj";
+import Parentprop from "./Parentprop";
+import FunctionasProp from "./FunctionasProp";
+import Counter from "./components/Assignments/Counter";
+import Todo from "./components/Assignments/Todo";
+import Profile from "./components/Assignments/Profile";
+import ShoppingList from "./components/Assignments/ShoppingList";
+import BasicEffect from "./components/Assignments/BasicEffect";
 const App = () => {
   return (
     <>
-      <ProductInfo />
+      {/* <ProductInfo />
       <Userlist />
       <ProductList />
       <div>
@@ -36,6 +46,17 @@ const App = () => {
       <GreetingCR timeofDay="morning" />
       <StyledCard />
       <IconComponent />
+      <Counter /> */}
+
+      {/* <CrudFriends /> */}
+      {/* <CrudObj /> */}
+      {/* <Parentprop /> */}
+      {/* <FunctionasProp /> */}
+      {/* <Counter /> */}
+      {/* <Todo /> */}
+      {/* <Profile /> */}
+      {/* <ShoppingList /> */}
+      <BasicEffect />
     </>
   );
 };
