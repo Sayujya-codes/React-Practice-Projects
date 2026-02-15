@@ -25,6 +25,7 @@ import Todo from "./components/Assignments/Todo";
 import Profile from "./components/Assignments/Profile";
 import ShoppingList from "./components/Assignments/ShoppingList";
 import BasicEffect from "./components/Assignments/BasicEffect";
+import CounterEffect from "./components/Assignments/CounterEffect";
 const App = () => {
   return (
     <>
@@ -56,7 +57,8 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Profile /> */}
       {/* <ShoppingList /> */}
-      <BasicEffect />
+      {/* <BasicEffect /> */}
+      <CounterEffect />
     </>
   );
 };
